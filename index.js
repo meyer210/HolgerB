@@ -40,9 +40,21 @@ function scanForDevices(){
 	}
 }
 
+/*function testbutton() 
+{
+	document.write("hello");
+}
+*/
 function onDiscoverDevice(){
+	doctype.getElementById("looking").innerHTML = "søger efter devices";
 	if (device.name == "HolgerB")
 	{
+		doctype.getElementById("success").innerHTML = "fundet device";
 		self.location="absalon_forside.htm";
 	}
+	else
+	{
+		document.getElementById("fail").innerHTML = "søgning fejlet";
+	}
+	
 }

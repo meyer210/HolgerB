@@ -31,7 +31,28 @@ var blue ={
 
 var ConnDeviceId;
 
-function scanForDevices(){
+function refreshDeviceList(){
+	//deviceList =[];
+	document.getElementById("test1").innerHTML = ''; // empties the list
+	if (cordova.platformId === 'android') { // Android filtering is broken
+		ble.scan([], 5, onDiscoverDevice, onError);
+	} else {
+		//alert("Disconnected");
+		ble.scan([blue.serviceUUID], 5, onDiscoverDevice, onError);
+	}
+}
+
+
+function onDiscoverDevice(device){
+	//Make a list in html and show devises
+	
+		var listItem = document.createElement('li'),
+		html = device.name+ "," + device.id;
+		listItem.innerHTML = html;
+		document.getElementById("test1").appendChild(listItem);
+	
+}
+/*function scanForDevices(){
 	//alert("scan for devices fundet");
 	if (cordova.platformId === 'android') { // Android filtering is broken
 		//alert("if-statement true");
@@ -46,12 +67,12 @@ function scanForDevices(){
 {
 	document.write("hello");
 }
-*/
+
 function onDiscoverDevice(device){
 	//alert("fundet");
-	//document.getElementById("test").innerHTML += device.name + "<br>";
+	document.getElementById("test").innerHTML += "1" + "<br>";
 	var listItem = document.createElement('li'),
-		html = "1" + device.name+ "," + device.id;
+		html = "2" /*+ device.name+ "," + device.id;
 		listItem.innerHTML = html;
 		document.getElementById("test").appendChild(listItem);
 	

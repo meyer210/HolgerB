@@ -46,7 +46,8 @@ function scanForDevices(){
 }
 */
 function onDiscoverDevice(){
-	doctype.getElementById("looking").innerHTML = "søger efter devices";
+	var mywindow = windows.open("","MsgWindow", "width=200, height=100")
+	mywindow.document.write("<p>looking</p>")
 	if (device.name == "HolgerB")
 	{
 		doctype.getElementById("success").innerHTML = "fundet device";

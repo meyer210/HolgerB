@@ -30,15 +30,21 @@ var blue ={
 }
 
 var ConnDeviceId;
-
+var deviceList =[];
+ 
 function onLoad(){
 	document.addEventListener('deviceready', onDeviceReady, false);
-    test1.addEventListener('touchstart', conn, false); // assume not scrolling
+    test.addEventListener('touchstart', conn, false); // assume not scrolling
 }
 
+function onDeviceReady(){
+	refreshDeviceList();
+}
+
+	 
 function refreshDeviceList(){
 	//deviceList =[];
-	document.getElementById("test1").innerHTML = ''; // empties the list
+	document.getElementById("test").innerHTML = ''; // empties the list
 	if (cordova.platformId === 'android') { // Android filtering is broken
 		ble.scan([], 5, onDiscoverDevice, onError);
 	} else {
@@ -47,58 +53,70 @@ function refreshDeviceList(){
 	}
 }
 
-function onDeviceReady(){
-	refreshDeviceList();
-}
-
-function conn(){
-	var  deviceTouch= event.srcElement.innerHTML;
-	document.getElementById("debugDiv").innerHTML =""; // empty debugDiv
-	var deviceTouchArr = deviceTouch.split(",");
-	ConnDeviceId = deviceTouchArr[1];
-	document.getElementById("debugDiv").innerHTML += "<br>"+deviceTouchArr[0]+"<br>"+deviceTouchArr[1]; //for debug:
-	ble.connect(ConnDeviceId, onConnect, onConnError);
- }
 
 function onDiscoverDevice(device){
 	//Make a list in html and show devises
-	
+		if (device.name == "DVKTEST2"){
 		var listItem = document.createElement('li'),
 		html = device.name+ "," + device.id;
 		listItem.innerHTML = html;
-		document.getElementById("test1").appendChild(listItem);
-	
-}
-/*function scanForDevices(){
-	//alert("scan for devices fundet");
-	if (cordova.platformId === 'android') { // Android filtering is broken
-		//alert("if-statement true");
-		ble.scan([], 5, onDiscoverDevice(), onError);
-	} else {
-		//alert("if statement false");
-		ble.scan([blue.serviceUUID], 5, onDiscoverDevice(), onError);
-	}
-}
-
-/*function testbutton() 
-{
-	document.write("hello");
-}
-
-function onDiscoverDevice(device){
-	//alert("fundet");
-	document.getElementById("test").innerHTML += "1" + "<br>";
-	var listItem = document.createElement('li'),
-		html = "2" /*+ device.name+ "," + device.id;
-		listItem.innerHTML = html;
 		document.getElementById("test").appendChild(listItem);
+		location.href("absalon_forside.html");
+		}
 	
-	/*if (device.name == "HolgerB")
-	{
-		alert("fundet");
-	}
-	else
-	{
-		alert("ikke fundet");
-	}
+}
+
+
+function conn(){
+	var  deviceTouch= event.srcElement.innerHTML;
+	//document.getElementById("debugDiv").innerHTML =""; // empty debugDiv
+	var deviceTouchArr = deviceTouch.split(",");
+	ConnDeviceId = deviceTouchArr[1];
+	//document.getElementById("debugDiv").innerHTML += "<br>"+deviceTouchArr[0]+"<br>"+deviceTouchArr[1]; //for debug:
+	//ble.connect(ConnDeviceId, onConnect, onConnError);
+ }
+ 
+ //succes
+/*function onConnect(){
+	/*document.getElementById("statusDiv").innerHTML = " Status: Connected";
+	document.getElementById("bleId").innerHTML = ConnDeviceId;
+	ble.startNotification(ConnDeviceId, blue.serviceUUID, blue.rxCharacteristic, onData, onError);
 }*/
+
+//failure
+/*function onConnError(){
+	alert("Problem connecting");
+	//document.getElementById("statusDiv").innerHTML = " Status: Disonnected";
+}
+*/
+ /*function onData(data){ // data received from Arduino
+	document.getElementById("receiveDiv").innerHTML =  "Received: " + bytesToString(data) + "<br/>";
+}*/
+
+function data(txt){
+	messageInput.value = txt;
+}	
+/*
+function sendData() { // send data to Arduino
+	 var data = stringToBytes(messageInput.value);
+	ble.writeWithoutResponse(ConnDeviceId, blue.serviceUUID, blue.txCharacteristic, data, onSend, onError);
+}
+
+function onSend(){
+	//document.getElementById("sendDiv").innerHTML = "Sent: " + messageInput.value + "<br/>";
+}
+*/
+/*
+function disconnect() {
+	ble.disconnect(deviceId, onDisconnect, onError);
+}
+
+function onDisconnect(){
+	//document.getElementById("statusDiv").innerHTML = "Status: Disconnected";
+}
+*/
+function onError(reason)  {
+	//alert("ERROR: " + reason); // real apps should use notification.alert
+}
+
+	

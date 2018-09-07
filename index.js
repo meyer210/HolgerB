@@ -31,6 +31,11 @@ var blue ={
 
 var ConnDeviceId;
 
+function onLoad(){
+	document.addEventListener('deviceready', onDeviceReady, false);
+    bleDeviceList.addEventListener('touchstart', conn, false); // assume not scrolling
+}
+
 function refreshDeviceList(){
 	//deviceList =[];
 	document.getElementById("test1").innerHTML = ''; // empties the list

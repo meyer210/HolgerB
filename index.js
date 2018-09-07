@@ -32,11 +32,12 @@ var blue ={
 var ConnDeviceId;
 
 function scanForDevices(){
-	alert("scan for devices fundet");
+	//alert("scan for devices fundet");
 	if (cordova.platformId === 'android') { // Android filtering is broken
+		alert("if-statement true");
 		ble.scan([], 5, onDiscoverDevice, onError);
 	} else {
-		//alert("Disconnected");
+		alert("if statement false");
 		ble.scan([blue.serviceUUID], 5, onDiscoverDevice, onError);
 	}
 }

@@ -33,7 +33,7 @@ var ConnDeviceId;
 
 function onLoad(){
 	document.addEventListener('deviceready', onDeviceReady, false);
-    bleDeviceList.addEventListener('touchstart', conn, false); // assume not scrolling
+    test1.addEventListener('touchstart', conn, false); // assume not scrolling
 }
 
 function refreshDeviceList(){
@@ -47,6 +47,18 @@ function refreshDeviceList(){
 	}
 }
 
+function onDeviceReady(){
+	refreshDeviceList();
+}
+
+function conn(){
+	var  deviceTouch= event.srcElement.innerHTML;
+	document.getElementById("debugDiv").innerHTML =""; // empty debugDiv
+	var deviceTouchArr = deviceTouch.split(",");
+	ConnDeviceId = deviceTouchArr[1];
+	document.getElementById("debugDiv").innerHTML += "<br>"+deviceTouchArr[0]+"<br>"+deviceTouchArr[1]; //for debug:
+	ble.connect(ConnDeviceId, onConnect, onConnError);
+ }
 
 function onDiscoverDevice(device){
 	//Make a list in html and show devises
@@ -88,6 +100,5 @@ function onDiscoverDevice(device){
 	else
 	{
 		alert("ikke fundet");
-	}*/
-	
-}
+	}
+}*/

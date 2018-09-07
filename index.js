@@ -48,15 +48,15 @@ function scanForDevices(){
 }
 */
 function onDiscoverDevice(device){
-	alert(device.name);
-	
-	if (device.name == "HolgerB")
+	//alert("fundet");
+	document.getElementById("test") += device.name + "<br>";
+	/*if (device.name == "HolgerB")
 	{
 		alert("fundet");
 	}
 	else
 	{
 		alert("ikke fundet");
-	}
+	}*/
 	
 }

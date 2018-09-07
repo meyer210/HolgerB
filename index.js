@@ -48,7 +48,8 @@ function scanForDevices(){
 }
 */
 function onDiscoverDevice(device){
-	alert("does it work");
+	alert(device.name);
+	
 	if (device.name == "HolgerB")
 	{
 		alert("fundet");

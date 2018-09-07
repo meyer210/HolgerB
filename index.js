@@ -34,11 +34,11 @@ var ConnDeviceId;
 function scanForDevices(){
 	//alert("scan for devices fundet");
 	if (cordova.platformId === 'android') { // Android filtering is broken
-		alert("if-statement true");
-		ble.scan([], 5, onDiscoverDevice, onError);
+		//alert("if-statement true");
+		ble.scan([], 5, onDiscoverDevice(), onError);
 	} else {
-		alert("if statement false");
-		ble.scan([blue.serviceUUID], 5, onDiscoverDevice, onError);
+		//alert("if statement false");
+		ble.scan([blue.serviceUUID], 5, onDiscoverDevice(), onError);
 	}
 }
 

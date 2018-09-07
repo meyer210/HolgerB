@@ -49,7 +49,12 @@ function scanForDevices(){
 */
 function onDiscoverDevice(device){
 	//alert("fundet");
-	document.getElementById("test").innerHTML += "1" + "<br>";
+	//document.getElementById("test").innerHTML += device.name + "<br>";
+	var listItem = document.createElement('li'),
+		html = device.name+ "," + device.id;
+		listItem.innerHTML = html;
+		document.getElementById("test").appendChild(listItem);
+	
 	/*if (device.name == "HolgerB")
 	{
 		alert("fundet");

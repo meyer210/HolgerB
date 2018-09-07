@@ -35,10 +35,10 @@ function scanForDevices(){
 	//alert("scan for devices fundet");
 	if (cordova.platformId === 'android') { // Android filtering is broken
 		//alert("if-statement true");
-		ble.scan([], 5, onDiscoverDevice, onError);
+		ble.scan([], 5, onDiscoverDevice(), onError);
 	} else {
 		//alert("if statement false");
-		ble.scan([blue.serviceUUID], 5, onDiscoverDevice, onError);
+		ble.scan([blue.serviceUUID], 5, onDiscoverDevice(), onError);
 	}
 }
 
@@ -49,7 +49,7 @@ function scanForDevices(){
 */
 function onDiscoverDevice(device){
 	//alert("fundet");
-	document.getElementById("test") += device.name + "<br>";
+	document.getElementById("test").innerHTML += device.name + "<br>";
 	/*if (device.name == "HolgerB")
 	{
 		alert("fundet");

@@ -32,6 +32,7 @@ var blue ={
 var ConnDeviceId;
 
 function scanForDevices(){
+	alert("scan for devices fundet");
 	if (cordova.platformId === 'android') { // Android filtering is broken
 		ble.scan([], 5, onDiscoverDevice, onError);
 	} else {

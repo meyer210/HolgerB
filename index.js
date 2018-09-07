@@ -48,15 +48,13 @@ function scanForDevices(){
 }
 */
 function onDiscoverDevice(){
-	alert("looking");
 	if (device.name == "HolgerB")
 	{
-		doctype.getElementById("success").innerHTML = "fundet device";
-		self.location="absalon_forside.htm";
+		alert("fundet");
 	}
 	else
 	{
-		document.getElementById("fail").innerHTML = "søgning fejlet";
+		alert("ikke fundet");
 	}
 	
 }

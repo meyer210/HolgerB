@@ -61,7 +61,7 @@ function onDiscoverDevice(device){
 		html = device.name+ "," + device.id;
 		listItem.innerHTML = html;
 		document.getElementById("test").appendChild(listItem);
-		location.href("absalon_forside.html");
+		window.location.href = 'absalon_forside.html';
 		}
 	
 }

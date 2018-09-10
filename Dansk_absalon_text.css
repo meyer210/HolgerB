@@ -84,3 +84,8 @@
 	height:7%;
 	width:30%;
 }
+
+body{
+	background-color: black;
+	z-index: 0;
+}

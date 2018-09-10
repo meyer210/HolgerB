@@ -88,7 +88,7 @@
 .textarea
 {
 	line-height: 1.5;
-	font-size:10px;
+	font-size:11px;
 	position: absolute;
 	width: 70%;
     height: 50px;
@@ -96,6 +96,18 @@
 	left:20%;
 	z-index: 6;
 }
+
+.Danish_flag
+{
+	position: fixed;
+	display: block;
+	top:0%;
+	left:0%;
+	width:20%;
+	height:4%;
+	z-index: 6;
+}
+
 
 body{
 	background-color: black;

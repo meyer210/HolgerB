@@ -62,18 +62,18 @@
 	top: 2%;
 	z-index: 5;
 }
-/*
-.Big_map_image
+
+.Maps_image
 {
 	position: fixed;
 	display: block;
-	height:20%;
-	width:20%;
-	left: 20%;
-	top: 20%;
+	top:90%;
+	left:90%;
 	z-index: 6;
+	height:8%;
+	width:8%;
 }
-*/
+
 .Share_image
 {
 	position: fixed;

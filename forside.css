@@ -164,7 +164,7 @@
 .scroll-left {
  height: 100px;	
  overflow: hidden;
- top:20%;
+ top:10%;
  position: relative;
  z-index: 12;
 }
@@ -173,7 +173,7 @@
  font-size: 200%;
  z-index: 11;
  position: absolute;
- top:20%;
+ top:10%;
  left: -250%;
  width: 700%;
  height: 100%;

@@ -2,11 +2,10 @@
 {
 	/*background-image: url("Background.png");*/
 	display: block;
-	margin-top:;
 	height:100%;
 	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
+	/*margin-left: auto;
+	margin-right: auto;*/
 	position: absolute;
 	/*overflow-y: hidden;*/
 	overflow-x: hidden;

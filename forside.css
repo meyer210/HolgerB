@@ -67,22 +67,22 @@
 {
 	position: fixed;
 	display: block;
-	top:95%;
-	left:95%;
+	top:90%;
+	left:90%;
 	z-index: 6;
-	height:;
-	width:;
+	height:10%;
+	width:10%;
 }
 
 .Share_image
 {
 	position: fixed;
 	display: block;
-	top:95%;
-	left:5%;
+	top:90%;
+	left:2%;
 	z-index: 6;
-	height:;
-	width:;
+	height:10%;
+	width:10%;
 }
 
 .clickable_danish

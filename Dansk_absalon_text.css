@@ -20,10 +20,10 @@
 	display: block;
 	height: 8%;
 	width: 100%;
-	top:;
-	left:;
-	margin-left: auto;
-	margin-right: auto;
+	top:0%;
+	left:0%;
+/*	margin-left: auto;
+	margin-right: auto;*/
 	z-index: 2;
 }
 

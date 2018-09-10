@@ -1,0 +1,75 @@
+.Background_image
+{
+	/*background-image: url("Background.png");*/
+	display: block;
+	margin-top:;
+	height:100%;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	/*overflow-y: hidden;*/
+	overflow-x: hidden;
+	z-index: 1;
+}
+
+
+.Roedbjælke
+{
+	position: fixed;
+	display: block;
+	height: 8%;
+	width: 100%;
+	top:;
+	left:;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 2;
+}
+
+.Absalon_image
+{
+	position: fixed;
+	display: block;
+	height: 4%;
+	width: 22%;
+	margin-left: auto;
+	margin-right: auto;
+	top: 3%;
+	left: 38%;
+	z-index: 3;
+}
+
+.Søgefelt_image
+{
+	position: fixed;
+	display: block;
+	top:3%;
+	left:62%;
+	z-index: 4;
+	height: 5%;
+	width: 30%;
+}
+
+.Søg_image
+{
+	position: fixed;
+	display: block;
+	height:6%;
+	width:5%;
+	left: 93%;
+	right: 0px;
+	top: 2%;
+	z-index: 5;
+}
+
+.Big_map_image
+{
+	position: fixed;
+	display: block;
+	height:10%;
+	width:10%;
+	left: 10%;
+	top: 10%;
+	z-index: 6;
+}

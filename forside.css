@@ -67,11 +67,10 @@
 {
 	position: fixed;
 	display: block;
-	size: 5%;
 	left: 5%;
 	top: 50%;
-	height: 20%;
-	width: 17%;
+	height: 15%;
+	width: 15%;
 	z-index:6;
 }
 
@@ -79,8 +78,8 @@
 {
 	position: fixed;
 	display: block;
-	height: 20%;
-	width: 17%;
+	height: 15%;
+	width: 15%;
 	left: 5%;
 	top: 75%;
 	z-index: 6;
@@ -90,8 +89,8 @@
 {
 	position: fixed;
 	display: block;
-	height: 20%;
-	width: 17%;
+	height: 15%;
+	width: 15%;
 	left: 27%;
 	top: 50%;
 	z-index: 6;
@@ -101,8 +100,8 @@
 {
 	position: fixed;
 	display: block;
-	height: 20%;
-	width: 17%;
+	height: 15%;
+	width: 15%;
 	left: 27%;
 	top: 75%;
 	z-index: 6;
@@ -112,8 +111,8 @@
 {
 	position: fixed;
 	display: block;
-	height: 20%;
-	width: 17%;
+	height: 15%;
+	width: 15%;
 	left: 52%;
 	top: 50%;
 	z-index: 6;
@@ -123,8 +122,8 @@
 {
 	position: fixed;
 	display: block;
-	height: 20%;
-	width: 17%;
+	height: 15%;
+	width: 15%;
 	left: 52%;
 	top: 75%;
 	z-index: 6;
@@ -134,8 +133,8 @@
 {
 	position: fixed;
 	display: block;
-	height: 20%;
-	width: 17%;
+	height: 15%;
+	width: 15%;
 	left: 78%;
 	top: 50%;
 	z-index: 6;
@@ -145,8 +144,8 @@
 {
 	position: fixed;
 	display: block;
-	height: 20%;
-	width: 17%;
+	height: 15%;
+	width: 15%;
 	left: 78%;
 	top: 75%;
 	z-index: 6;

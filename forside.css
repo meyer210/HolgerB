@@ -47,13 +47,15 @@
 		top:3%;
 		left:62%;
 		z-index: 4;
+		height: 5%;
+		width: 30%;
 }
 
 .Søg_image
 {
 	position: fixed;
 	display: block;
-	height:5%;
+	height:6%;
 	width:5%;
 	left: 93%;
 	right: 0px;
@@ -66,8 +68,10 @@
 	position: fixed;
 	display: block;
 	size: 5%;
-	left: 2%;
-	top: 55%;
+	left: 5%;
+	top: 50%;
+	height: 20%;
+	width: 17%;
 	z-index:6;
 }
 
@@ -75,9 +79,10 @@
 {
 	position: fixed;
 	display: block;
-	size: 5%;
-	left: 2%;
-	top: 70%;
+	height: 20%;
+	width: 17%;
+	left: 5%;
+	top: 75%;
 	z-index: 6;
 }
 
@@ -85,9 +90,10 @@
 {
 	position: fixed;
 	display: block;
-	size: 5%;
+	height: 20%;
+	width: 17%;
 	left: 27%;
-	top: 55%;
+	top: 50%;
 	z-index: 6;
 }
 
@@ -95,9 +101,10 @@
 {
 	position: fixed;
 	display: block;
-	size: 5%;
+	height: 20%;
+	width: 17%;
 	left: 27%;
-	top: 70%;
+	top: 75%;
 	z-index: 6;
 }
 
@@ -105,9 +112,10 @@
 {
 	position: fixed;
 	display: block;
-	size: 5%;
+	height: 20%;
+	width: 17%;
 	left: 52%;
-	top: 55%;
+	top: 50%;
 	z-index: 6;
 }
 
@@ -115,9 +123,10 @@
 {
 	position: fixed;
 	display: block;
-	size: 5%;
+	height: 20%;
+	width: 17%;
 	left: 52%;
-	top: 70%;
+	top: 75%;
 	z-index: 6;
 }
 
@@ -125,9 +134,10 @@
 {
 	position: fixed;
 	display: block;
-	size: 5%;
+	height: 20%;
+	width: 17%;
 	left: 78%;
-	top: 55%;
+	top: 50%;
 	z-index: 6;
 }
 
@@ -135,9 +145,10 @@
 {
 	position: fixed;
 	display: block;
-	size: 5%;
+	height: 20%;
+	width: 17%;
 	left: 78%;
-	top: 70%;
+	top: 75%;
 	z-index: 6;
 }
 /*.Corner_flag{
@@ -154,7 +165,7 @@
 .scroll-left {
  height: 200px;	
  overflow: hidden;
- top:30%;
+ top:20%;
  position: relative;
  z-index: 12;
 }
@@ -163,7 +174,7 @@
  font-size: 400%;
  z-index: 11;
  position: absolute;
- top:30%;
+ top:20%;
  left: -250%;
  width: 700%;
  height: 100%;

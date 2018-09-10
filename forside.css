@@ -70,8 +70,8 @@
 	top:90%;
 	left:90%;
 	z-index: 6;
-	height:10%;
-	width:10%;
+	height:8%;
+	width:8%;
 }
 
 .Share_image
@@ -81,8 +81,8 @@
 	top:90%;
 	left:2%;
 	z-index: 6;
-	height:10%;
-	width:20%;
+	height:7%;
+	width:30%;
 }
 
 .clickable_danish
@@ -92,7 +92,7 @@
 	height: 15%;
 	width: 20%;
 	left: 5%;
-	top: 35%;
+	top: 45%;
 	z-index:6;
 }
 
@@ -103,7 +103,7 @@
 	height: 15%;
 	width: 20%;
 	left: 5%;
-	top: 55%;
+	top: 65%;
 	z-index: 6;
 }
 
@@ -114,7 +114,7 @@
 	height: 15%;
 	width: 20%;
 	left: 32%;
-	top: 35%;
+	top: 45%;
 	z-index: 6;
 }
 
@@ -125,7 +125,7 @@
 	height: 15%;
 	width: 20%;
 	left: 32%;
-	top: 55%;
+	top: 65%;
 	z-index: 6;
 }
 
@@ -136,7 +136,7 @@
 	height: 15%;
 	width: 20%;
 	left: 57%;
-	top: 35%;
+	top: 45%;
 	z-index: 6;
 }
 
@@ -147,7 +147,7 @@
 	height: 15%;
 	width: 20%;
 	left: 57%;
-	top: 55%;
+	top: 65%;
 	z-index: 6;
 }
 
@@ -158,7 +158,7 @@
 	height: 15%;
 	width: 20%;
 	left: 80%;
-	top: 35%;
+	top: 45%;
 	z-index: 6;
 }
 
@@ -169,7 +169,7 @@
 	height: 15%;
 	width: 20%;
 	left: 80%;
-	top: 55%;
+	top: 65%;
 	z-index: 6;
 }
 /*.Corner_flag{

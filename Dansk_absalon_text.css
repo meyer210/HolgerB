@@ -44,7 +44,7 @@
 	top:3%;
 	left:62%;
 	z-index: 4;
-	height: 5%;
+	height: 3%;
 	width: 30%;
 }
 
@@ -52,7 +52,7 @@
 {
 	position: fixed;
 	display: block;
-	height:6%;
+	height:4%;
 	width:5%;
 	left: 93%;
 	right: 0px;
@@ -101,7 +101,7 @@
 	top:0%;
 	left:0%;
 	width:20%;
-	height:4%;
+	height:8%;
 	z-index: 6;
 }
 

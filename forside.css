@@ -67,10 +67,10 @@
 {
 	position: fixed;
 	display: block;
-	left: 5%;
-	top: 55%;
 	height: 15%;
 	width: 20%;
+	left: 5%;
+	top: 55%;
 	z-index:6;
 }
 
@@ -91,7 +91,7 @@
 	display: block;
 	height: 15%;
 	width: 20%;
-	left: 30%;
+	left: 32%;
 	top: 55%;
 	z-index: 6;
 }
@@ -102,7 +102,7 @@
 	display: block;
 	height: 15%;
 	width: 20%;
-	left: 30%;
+	left: 32%;
 	top: 75%;
 	z-index: 6;
 }
@@ -113,7 +113,7 @@
 	display: block;
 	height: 15%;
 	width: 20%;
-	left: 55%;
+	left: 57%;
 	top: 55%;
 	z-index: 6;
 }
@@ -124,7 +124,7 @@
 	display: block;
 	height: 15%;
 	width: 20%;
-	left: 55%;
+	left: 57%;
 	top: 75%;
 	z-index: 6;
 }

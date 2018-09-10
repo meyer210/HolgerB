@@ -68,7 +68,7 @@
 	position: fixed;
 	display: block;
 	left: 5%;
-	top: 60%;
+	top: 55%;
 	height: 15%;
 	width: 15%;
 	z-index:6;
@@ -92,7 +92,7 @@
 	height: 15%;
 	width: 15%;
 	left: 27%;
-	top: 60%;
+	top: 55%;
 	z-index: 6;
 }
 
@@ -114,7 +114,7 @@
 	height: 15%;
 	width: 15%;
 	left: 52%;
-	top: 60%;
+	top: 55%;
 	z-index: 6;
 }
 
@@ -136,7 +136,7 @@
 	height: 15%;
 	width: 15%;
 	left: 78%;
-	top: 60%;
+	top: 55%;
 	z-index: 6;
 }
 

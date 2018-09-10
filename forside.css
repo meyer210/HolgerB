@@ -42,13 +42,13 @@
 
 .Søgefelt_image
 {
-		position: fixed;
-		display: block;
-		top:3%;
-		left:62%;
-		z-index: 4;
-		height: 5%;
-		width: 30%;
+	position: fixed;
+	display: block;
+	top:3%;
+	left:62%;
+	z-index: 4;
+	height: 5%;
+	width: 30%;
 }
 
 .Søg_image
@@ -61,6 +61,28 @@
 	right: 0px;
 	top: 2%;
 	z-index: 5;
+}
+
+.Maps_image
+{
+	position: fixed;
+	display: block;
+	top:95%;
+	left:95%;
+	z-index: 6;
+	height:;
+	width:;
+}
+
+.Share_image
+{
+	position: fixed;
+	display: block;
+	top:95%;
+	left:5%;
+	z-index: 6;
+	height:;
+	width:;
 }
 
 .clickable_danish

@@ -2,14 +2,11 @@
 {
 	/*background-image: url("Background.png");*/
 	display: block;
-	margin-top:;
+	top:0%;
+	left:0%;
 	height:100%;
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	position: absolute;
-	/*overflow-y: hidden;*/
-	overflow-x: hidden;
+	width: 101%;
+	position: fixed;
 	z-index: 1;
 }
 
@@ -20,10 +17,10 @@
 	display: block;
 	height: 8%;
 	width: 100%;
-	top:;
-	left:;
-	margin-left: auto;
-	margin-right: auto;
+	top:0%;
+	left:0%;
+/*	margin-left: auto;
+	margin-right: auto;*/
 	z-index: 2;
 }
 
@@ -44,7 +41,7 @@
 {
 	position: fixed;
 	display: block;
-	top:3%;
+	top:1%;
 	left:62%;
 	z-index: 4;
 	height: 5%;
@@ -55,7 +52,7 @@
 {
 	position: fixed;
 	display: block;
-	height:6%;
+	height:5%;
 	width:5%;
 	left: 93%;
 	right: 0px;

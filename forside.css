@@ -70,7 +70,7 @@
 	left: 5%;
 	top: 55%;
 	height: 15%;
-	width: 15%;
+	width: 20%;
 	z-index:6;
 }
 
@@ -79,7 +79,7 @@
 	position: fixed;
 	display: block;
 	height: 15%;
-	width: 15%;
+	width: 20%;
 	left: 5%;
 	top: 75%;
 	z-index: 6;
@@ -90,7 +90,7 @@
 	position: fixed;
 	display: block;
 	height: 15%;
-	width: 15%;
+	width: 20%;
 	left: 27%;
 	top: 55%;
 	z-index: 6;
@@ -101,7 +101,7 @@
 	position: fixed;
 	display: block;
 	height: 15%;
-	width: 15%;
+	width: 20%;
 	left: 27%;
 	top: 75%;
 	z-index: 6;
@@ -112,7 +112,7 @@
 	position: fixed;
 	display: block;
 	height: 15%;
-	width: 15%;
+	width: 20%;
 	left: 52%;
 	top: 55%;
 	z-index: 6;
@@ -123,7 +123,7 @@
 	position: fixed;
 	display: block;
 	height: 15%;
-	width: 15%;
+	width: 20%;
 	left: 52%;
 	top: 75%;
 	z-index: 6;
@@ -134,7 +134,7 @@
 	position: fixed;
 	display: block;
 	height: 15%;
-	width: 15%;
+	width: 20%;
 	left: 78%;
 	top: 55%;
 	z-index: 6;
@@ -145,7 +145,7 @@
 	position: fixed;
 	display: block;
 	height: 15%;
-	width: 15%;
+	width: 20%;
 	left: 78%;
 	top: 75%;
 	z-index: 6;

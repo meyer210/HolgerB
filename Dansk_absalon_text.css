@@ -83,7 +83,7 @@
 
 .textarea
 {
-	background-color: rgba(195,195,195, .5);
+	/*background-color: rgba(195,195,195, .5);*/
 	line-height: 1.5;
 	font-size:12px;
 	position: absolute;

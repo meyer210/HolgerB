@@ -105,6 +105,17 @@
 	z-index: 6;
 }
 
+.Absalon_image
+{
+	position: fixed;
+	display: block;
+	top: 12%;
+	left: 5%;
+	width: 20%;
+	height: 20%;
+	z-index: 6;
+}
+
 
 body{
 	background-color: black;

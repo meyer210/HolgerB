@@ -83,8 +83,7 @@
 
 .textarea
 {
-	background-color: gray;
-	opacity: 0.5;
+	background-color: rgba(195,195,195, .5);
 	line-height: 1.25;
 	font-size:12px;
 	position: absolute;

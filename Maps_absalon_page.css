@@ -63,9 +63,9 @@
 {
 	position: fixed;
 	display: block;
-	height:80%;
-	width:90%;
-	left: 20%;
+	height:60%;
+	width:80%;
+	left: 10%;
 	top: 20%;
 	z-index: 6;
 }

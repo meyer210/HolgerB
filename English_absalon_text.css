@@ -83,17 +83,17 @@
 
 .textarea
 {
+	font-weight: bold;
 	line-height: 1.5;
 	font-size:12px;
 	position: absolute;
-	width: 70%;
-    height: 50px;
-	top: 20%;
-	left:20%;
+	width: 80%;
+    height: 50%;
+	top: 25%;
+	left:15%;
 	z-index: 6;
 }
-
-.Danish_flag
+.English_flag
 {
 	position: fixed;
 	display: block;
@@ -101,6 +101,17 @@
 	left:0%;
 	width:20%;
 	height:8%;
+	z-index: 6;
+}
+
+.Absalon_image
+{
+	position: fixed;
+	display: block;
+	top: 12%;
+	left: 5%;
+	width: 30%;
+	height: 15%;
 	z-index: 6;
 }
 

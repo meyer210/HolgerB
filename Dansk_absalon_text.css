@@ -83,12 +83,14 @@
 
 .textarea
 {
+	background-color: gray;
+	opacity: 0.5;
 	line-height: 1.25;
 	font-size:12px;
 	position: absolute;
 	width: 80%;
     height: 50%;
-	top: 15%;
+	top: 25%;
 	left:15%;
 	z-index: 6;
 }

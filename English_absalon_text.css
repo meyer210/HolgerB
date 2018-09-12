@@ -1,122 +1,118 @@
-.Background_image
+.Background_image		/* Background Image */
 {
-	/*background-image: url("Background.png");*/
 	display: block;
-	top:0%;
-	left:0%;
-	height:100%;
-	width: 101%;
-	position: fixed;
-	z-index: 1;
+	top:0%;				/* postioning from top side of screen*/
+	left:0%;			/* postioning from left side of screen */
+	height:100%;		/* size in height of screen*/
+	width: 101%;		/* size in width of screen*/
+	position: fixed;	/* fixed: follows screen*/
+	z-index: 1;  		/* layer index, low behind, high in front*/
 }
 
 
-.Roedbjælke
+.Roedbjælke				/* Toprød bjælke*/				
 {
-	position: fixed;
 	display: block;
-	height: 8%;
-	width: 100%;
-	top:0%;
-	left:0%;
-/*	margin-left: auto;
-	margin-right: auto;*/
-	z-index: 2;
+	top:0%;				/* postioning from top side of screen*/
+	left:0%;			/* postioning from left side of screen */
+	height: 8%;			/* size in height of screen*/
+	width: 100%;		/* size in width of screen*/
+	position: fixed;	/* fixed: follows screen*/
+	z-index: 2;			/* layer index, low behind, high in front*/
 }
 
-.Absalon_image
+.Absalon_image			/* Absalon text overskrift*/
 {
-	position: fixed;
+	display: block;		
+	top: 1%;			/* postioning from top side of screen*/
+	left: 38%;			/* postioning from left side of screen */
+	height: 4%;			/* size in height of screen*/
+	width: 22%;			/* size in width of screen*/
+	position: fixed;	/* fixed: follows screen*/
+	z-index: 3;			/* layer index, low behind, high in front*/
+}
+
+.Søgefelt_image			/* Søgefelt i den rødebjælke ikke funktionelt*/
+{
 	display: block;
-	height: 4%;
-	width: 22%;
-	margin-left: auto;
-	margin-right: auto;
-	top: 1%;
-	left: 38%;
-	z-index: 3;
+	top:1%;				/* postioning from top side of screen*/
+	left:62%;			/* postioning from left side of screen */
+	height: 5%;			/* size in height of screen*/
+	width: 30%;			/* size in width of screen*/
+	position: fixed;	/* fixed: follows screen*/
+	z-index: 4;			/* layer index, low behind, high in front*/
 }
 
-.Søgefelt_image
+.Søg_image				/* Søge ikon i den rødebjælke ikke funktionelt*/
 {
-	position: fixed;
 	display: block;
-	top:1%;
-	left:62%;
-	z-index: 4;
-	height: 5%;
-	width: 30%;
+	top: 1%;			/* postioning from top side of screen*/
+	left: 93%;			/* postioning from left side of screen */
+	height:5%;			/* size in height of screen*/
+	width:5%;			/* size in width of screen*/
+	position: fixed;	/* fixed: follows screen*/
+	z-index: 5;			/* layer index, low behind, high in front*/
 }
 
-.Søg_image
+.Maps_image				/* Maps image i bunden af siden*/
 {
-	position: fixed;
+	display: block;		
+	top:90%;			/* postioning from top side of screen*/
+	left:90%;			/* postioning from left side of screen */
+	height:8%;			/* size in height of screen*/
+	width:8%;			/* size in width of screen*/
+	position: fixed;	/* fixed: follows screen*/
+	z-index: 6;			/* layer index, low behind, high in front*/
+}
+
+.Share_image			/* share icons like facebook and twitter ikke funktionelt*/
+{
 	display: block;
-	height:5%;
-	width:5%;
-	left: 93%;
-	top: 1%;
-	z-index: 5;
+	top:90%;			/* postioning from top side of screen*/
+	left:2%;			/* postioning from left side of screen */
+	height:7%;			/* size in height of screen*/
+	width:30%;			/* size in width of screen*/
+	position: fixed;	/* fixed: follows screen*/
+	z-index: 6;			/* layer index, low behind, high in front*/
 }
 
-.Maps_image
+.textarea				/* textarea for information text*/
 {
-	position: fixed;
+	font-weight: bold;	/* sets the text in bold to make it readable*/
+	line-height: 1.5;	/* sets the line-height for the text */
+	font-size:12px;		/* sets the font-size for the text */
+	position: absolute;	/* absolute stays inscreen does not follow screen */
+	height: 50%;		/* size in height of screen*/
+	width: 80%;			/* size in width of screen*/
+	top: 25%;			/* postioning from top side of screen*/
+	left:15%;			/* postioning from left side of screen */
+	z-index: 6;			/* layer index, low behind, high in front*/
+}
+.English_flag			/* English flag on top left corner to show language choosen */
+{
+	display: block;	
+	top:0%;				/* postioning from top side of screen*/
+	left:0%;			/* postioning from left side of screen */
+	height:8%;			/* size in height of screen*/
+	width:20%;			/* size in width of screen*/
+	position: fixed;	/* fixed: follows screen*/
+	z-index: 6;			/* layer index, low behind, high in front*/
+}
+
+.Absalon_image			/* image of absalon, beside text*/
+{
 	display: block;
-	top:90%;
-	left:90%;
-	z-index: 6;
-	height:8%;
-	width:8%;
-}
-
-.Share_image
-{
-	position: fixed;
-	display: block;
-	top:90%;
-	left:2%;
-	z-index: 6;
-	height:7%;
-	width:30%;
-}
-
-.textarea
-{
-	font-weight: bold;
-	line-height: 1.5;
-	font-size:12px;
-	position: absolute;
-	width: 80%;
-    height: 50%;
-	top: 25%;
-	left:15%;
-	z-index: 6;
-}
-.English_flag
-{
-	position: fixed;
-	display: block;
-	top:0%;
-	left:0%;
-	width:20%;
-	height:8%;
-	z-index: 6;
-}
-
-.Absalon_image
-{
-	position: fixed;
-	display: block;
-	top: 12%;
-	left: 5%;
-	width: 30%;
-	height: 15%;
-	z-index: 6;
+	top: 12%;			/* postioning from top side of screen*/
+	left: 5%;			/* postioning from left side of screen */
+	width: 30%;			/* size in height of screen*/
+	height: 15%;		/* size in width of screen*/
+	position: fixed;	/* fixed: follows screen*/
+	z-index: 6;			/* layer index, low behind, high in front*/
 }
 
 
-body{
-	background-color: black;
-	z-index: 0;
+body							/* calls the whole body of the html document */
+{					
+	background-color: black;	/* sets the background-color to black*/
+	z-index: 0;					/* layer index, low behind, high in front*/
 }

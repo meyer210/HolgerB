@@ -69,52 +69,15 @@ function onDiscoverDevice(device){
 
 function conn(){
 	var  deviceTouch= event.srcElement.innerHTML;
-	//document.getElementById("debugDiv").innerHTML =""; // empty debugDiv
+	
 	var deviceTouchArr = deviceTouch.split(",");
 	ConnDeviceId = deviceTouchArr[1];
-	//document.getElementById("debugDiv").innerHTML += "<br>"+deviceTouchArr[0]+"<br>"+deviceTouchArr[1]; //for debug:
-	//ble.connect(ConnDeviceId, onConnect, onConnError);
- }
- 
- //succes
-/*function onConnect(){
-	/*document.getElementById("statusDiv").innerHTML = " Status: Connected";
-	document.getElementById("bleId").innerHTML = ConnDeviceId;
-	ble.startNotification(ConnDeviceId, blue.serviceUUID, blue.rxCharacteristic, onData, onError);
-}*/
-
-//failure
-/*function onConnError(){
-	alert("Problem connecting");
-	//document.getElementById("statusDiv").innerHTML = " Status: Disonnected";
-}
-*/
- /*function onData(data){ // data received from Arduino
-	document.getElementById("receiveDiv").innerHTML =  "Received: " + bytesToString(data) + "<br/>";
-}*/
+	
 
 function data(txt){
 	messageInput.value = txt;
 }	
-/*
-function sendData() { // send data to Arduino
-	 var data = stringToBytes(messageInput.value);
-	ble.writeWithoutResponse(ConnDeviceId, blue.serviceUUID, blue.txCharacteristic, data, onSend, onError);
-}
 
-function onSend(){
-	//document.getElementById("sendDiv").innerHTML = "Sent: " + messageInput.value + "<br/>";
-}
-*/
-/*
-function disconnect() {
-	ble.disconnect(deviceId, onDisconnect, onError);
-}
-
-function onDisconnect(){
-	//document.getElementById("statusDiv").innerHTML = "Status: Disconnected";
-}
-*/
 function onError(reason)  {
 	//alert("ERROR: " + reason); // real apps should use notification.alert
 }

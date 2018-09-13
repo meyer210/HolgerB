@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="dk.kea.bluefruit" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
 
-    <name>bluefruit</name>
+    <name>HolgerB</name>
     <description>
         A sample app from a phone  BLE hardware.
     </description>
@@ -12,7 +12,7 @@
     </author>
 
     <content src="index.html" />
-	<!--<icon src="icon.jpg" platform="android" width="180" height="180" />-->
+	<icon src="icon.jpg" platform="android" width="180" height="180" />
 	<plugin name="cordova-plugin-ble-central" spec="^1.1.4">
         
     </plugin>

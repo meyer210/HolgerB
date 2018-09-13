@@ -89,8 +89,8 @@
 	left:15%;			/* postioning from left side of screen */
 	z-index: 6;			/* layer index, low behind, high in front*/
 }
-.English_flag			/* English flag on top left corner to show language choosen */
-=======
+.English_flag	
+{		
 	line-height: 1.5;
 	font-size:12px;
 	position: absolute;
@@ -101,19 +101,6 @@
 	z-index: 6;
 }
 
-.Danish_flag
->>>>>>> parent of 5de325e... m
-{
-	display: block;	
-	top:0%;				/* postioning from top side of screen*/
-	left:0%;			/* postioning from left side of screen */
-	height:8%;			/* size in height of screen*/
-	width:20%;			/* size in width of screen*/
-	position: fixed;	/* fixed: follows screen*/
-	z-index: 6;			/* layer index, low behind, high in front*/
-}
-
-<<<<<<< HEAD
 .Absalon_image			/* image of absalon, beside text*/
 {
 	display: block;
@@ -125,8 +112,6 @@
 	z-index: 6;			/* layer index, low behind, high in front*/
 }
 
-=======
->>>>>>> parent of 5de325e... m
 
 body							/* calls the whole body of the html document */
 {					
